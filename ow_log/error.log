@@ -1,0 +1,500 @@
+[Thu Sep 22 9:52:09 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Thu Sep 22 10:19:38 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:06:45 2016] [ow_core_log] [Exception] Message: Unable to load template file 'C:\xampp\htdocs\doficfd\ow_plugins\spdownload\views\controllers\download_index.html' File: C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php Line:139 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatebase.php(191): Smarty_Internal_Template->render(false, 0)
+#1 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatebase.php(94): Smarty_Internal_TemplateBase->_execute('C:\\xampp\\htdocs...', NULL, NULL, NULL, 0)
+#2 C:\xampp\htdocs\doficfd\ow_core\view_renderer.php(80): Smarty_Internal_TemplateBase->fetch('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\doficfd\ow_core\view.php(187): OW_ViewRenderer->renderTemplate('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(258): OW_View->render()
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Download))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Fri Sep 23 9:10:00 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:10:08 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:10:09 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:10:10 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:13:06 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:06 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:06 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:13:09 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:09 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:09 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:13:14 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:14 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:14 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:13:16 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:16 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:13:16 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:32:58 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:32:58 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:18 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:18 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:32 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:32 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:43 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:33:43 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:15 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:15 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:26 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:26 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:37 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:37 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:37 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:37 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:42 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:42 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:42 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:34:42 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:35 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:35 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:37 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:38 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:39 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:40 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:41 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:44 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:44 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:47 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:47 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:47 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:47 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:48 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:49 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:50 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:51 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:52 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:53 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:53 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:53 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 9:37:53 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:37:53 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:38:01 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:38:01 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:38:34 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:38:34 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:38:52 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:38:52 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:38:52 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:38:57 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:38:57 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:38:57 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:39:02 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:02 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:02 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:39:05 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:05 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:05 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:39:09 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_USER - assumed 'OW_CLOUDFILES_USER' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:09 2016] [ow_core_log] [Notice] Message: Use of undefined constant OW_CLOUDFILES_API_KEY - assumed 'OW_CLOUDFILES_API_KEY' File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php Line:57
+[Fri Sep 23 9:39:09 2016] [ow_core_log] [Exception] Message: Could not use CA bundle: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles/share/cacert.pem File: C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php Line:175 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles_http.php(163): CF_Http->ssl_use_cabundle()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\rackspace_cloudfiles\cloudfiles.php(144): CF_Http->__construct(1)
+#2 C:\xampp\htdocs\doficfd\ow_system_plugins\base\classes\cloud_storage.php(57): CF_Authentication->__construct('OW_CLOUDFILES_U...', 'OW_CLOUDFILES_A...')
+#3 C:\xampp\htdocs\doficfd\ow_core\ow.php(417): BASE_CLASS_CloudStorage->__construct()
+#4 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\plugin_service.php(447): OW::getStorage()
+#5 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(167): BOL_PluginService->addPluginDirs(Object(BOL_Plugin))
+#6 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(121): OW_DeveloperTools->updateStructureforAllPlugins()
+#7 C:\xampp\htdocs\doficfd\ow_core\developer_tools.php(80): OW_DeveloperTools->refreshEntitiesCache(true)
+#8 C:\xampp\htdocs\doficfd\ow_core\application.php(152): OW_DeveloperTools->init()
+#9 C:\xampp\htdocs\doficfd\index.php(54): OW_Application->init()
+#10 {main}]
+[Fri Sep 23 9:39:12 2016] [ow_core_log] [Notice] Message: Undefined index: test File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 9:39:12 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:26
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Fri Sep 23 22:36:17 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Fri Sep 23 22:36:19 2016] [ow_core_log] [Notice] Message: Undefined variable: params File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php Line:17
+[Fri Sep 23 22:37:16 2016] [ow_core_log] [Warning] Message: Missing argument 1 for SPDOWNLOAD_CMP_Category::__construct(), called in C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\download.php on line 17 and defined File: C:\xampp\htdocs\doficfd\ow_plugins\spdownload\components\category.php Line:4
+[Sat Sep 24 0:18:12 2016] [ow_core_log] [Warning] Message: Missing argument 1 for Form::__construct(), called in C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php on line 20 and defined File: C:\xampp\htdocs\doficfd\ow_core\form.php Line:102
+[Sat Sep 24 0:18:13 2016] [ow_core_log] [Notice] Message: Undefined variable: name File: C:\xampp\htdocs\doficfd\ow_core\form.php Line:113
+[Sat Sep 24 0:18:13 2016] [ow_core_log] [Notice] Message: Undefined variable: name File: C:\xampp\htdocs\doficfd\ow_core\form.php Line:120
+[Sat Sep 24 0:18:13 2016] [ow_core_log] [Exception] Message: Invalid form name! File: C:\xampp\htdocs\doficfd\ow_core\form.php Line:180 Trace: [#0 C:\xampp\htdocs\doficfd\ow_core\form.php(120): Form->setName(NULL)
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(20): Form->__construct()
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(9): spdownloadForm->__construct('test')
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 0:18:36 2016] [ow_core_log] [Warning] Message: Missing argument 1 for Submit::__construct(), called in C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php on line 31 and defined File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:974
+[Sat Sep 24 0:18:36 2016] [ow_core_log] [Notice] Message: Undefined variable: name File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:976
+[Sat Sep 24 0:18:36 2016] [ow_core_log] [Exception] Message: Invalid form element name! File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:108 Trace: [#0 C:\xampp\htdocs\doficfd\ow_core\form_element.php(976): FormElement->__construct(NULL)
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(31): Submit->__construct()
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(9): spdownloadForm->__construct('test')
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 0:18:45 2016] [ow_core_log] [Warning] Message: Missing argument 1 for Submit::__construct(), called in C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php on line 31 and defined File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:974
+[Sat Sep 24 0:18:45 2016] [ow_core_log] [Notice] Message: Undefined variable: name File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:976
+[Sat Sep 24 0:18:45 2016] [ow_core_log] [Exception] Message: Invalid form element name! File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:108 Trace: [#0 C:\xampp\htdocs\doficfd\ow_core\form_element.php(976): FormElement->__construct(NULL)
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(31): Submit->__construct()
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(9): spdownloadForm->__construct()
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 0:20:54 2016] [ow_core_log] [Warning] Message: Missing argument 1 for Submit::__construct(), called in C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php on line 31 and defined File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:974
+[Sat Sep 24 0:20:54 2016] [ow_core_log] [Notice] Message: Undefined variable: name File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:976
+[Sat Sep 24 0:20:54 2016] [ow_core_log] [Exception] Message: Invalid form element name! File: C:\xampp\htdocs\doficfd\ow_core\form_element.php Line:108 Trace: [#0 C:\xampp\htdocs\doficfd\ow_core\form_element.php(976): FormElement->__construct(NULL)
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(31): Submit->__construct()
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(9): spdownloadForm->__construct()
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 0:23:15 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\showcase\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 0:23:15 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\showcase\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 0:23:15 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\showcase): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 0:23:15 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\showcase`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 0:23:15 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sat Sep 24 4:46:25 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon\images): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 4:46:25 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon\images`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 4:46:26 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 4:46:26 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 4:46:26 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sat Sep 24 5:30:59 2016] [ow_core_log] [Exception] Message: Prefix `spdownload` not found! File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_service.php Line:183 Trace: [#0 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\bol\category_service.php(39): BOL_LanguageService->addValue(1, 'spdownload', 'category_1', 'test')
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(30): SPDOWNLOAD_BOL_CategoryService->addCategory(Array)
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(21): SPDOWNLOAD_CTRL_Category->addCategory(Array)
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 9:03:39 2016] [ow_core_log] [Exception] Message: Prefix `spdownload` not found! File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_service.php Line:183 Trace: [#0 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\bol\category_service.php(39): BOL_LanguageService->addValue(1, 'spdownload', 'category_2', 'test2')
+#1 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(30): SPDOWNLOAD_BOL_CategoryService->addCategory(Array)
+#2 C:\xampp\htdocs\doficfd\ow_plugins\spdownload\controllers\category.php(21): SPDOWNLOAD_CTRL_Category->addCategory(Array)
+#3 [internal function]: SPDOWNLOAD_CTRL_Category->index(Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(SPDOWNLOAD_CTRL_Category), Array)
+#5 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#6 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#7 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#8 {main}]
+[Sat Sep 24 10:20:19 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 10:20:19 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 10:20:19 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 10:20:19 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 10:20:19 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sat Sep 24 10:20:36 2016] [ow_core_log] [Exception] Message: There is no such prefix.. File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_value_dao.php Line:89 Trace: [#0 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_service.php(245): BOL_LanguageValueDao->findLastKeyList(0, 20, 'spdownload')
+#1 C:\xampp\htdocs\doficfd\ow_system_plugins\admin\controllers\languages.php(297): BOL_LanguageService->findLastKeyList(0, 20, 'spdownload')
+#2 [internal function]: ADMIN_CTRL_Languages->index(Array)
+#3 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(ADMIN_CTRL_Languages), Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(ADMIN_CTRL_Languages))
+#5 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#6 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#7 {main}]
+[Sat Sep 24 10:29:46 2016] [ow_core_log] [Exception] Message: There is no such prefix.. File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_value_dao.php Line:89 Trace: [#0 C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\language_service.php(245): BOL_LanguageValueDao->findLastKeyList(0, 20, 'spdownload')
+#1 C:\xampp\htdocs\doficfd\ow_system_plugins\admin\controllers\languages.php(297): BOL_LanguageService->findLastKeyList(0, 20, 'spdownload')
+#2 [internal function]: ADMIN_CTRL_Languages->index(Array)
+#3 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(250): ReflectionMethod->invokeArgs(Object(ADMIN_CTRL_Languages), Array)
+#4 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(ADMIN_CTRL_Languages))
+#5 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#6 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#7 {main}]
+[Sat Sep 24 10:32:51 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 10:32:51 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 10:32:51 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sat Sep 24 10:32:51 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sat Sep 24 10:32:51 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sat Sep 24 14:07:19 2016] [ow_core_log] [Notice] Message: Array to string conversion File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\335a40a2d9ffb3ff2843c957fbe76613489f3605_0.file.category.html.php Line:23
+[Sun Sep 25 4:08:24 2016] [ow_core_log] [Exception] Message: Syntax error in template "file:C:\xampp\htdocs\doficfd\ow_plugins\spdownload\views\controllers\category_index.html"  on line 26 "{if $category->level =0}"  - Unexpected " =", expected one of: "}" File: C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php Line:26 Trace: [#0 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templateparser.php(2730): Smarty_Internal_TemplateCompilerBase->trigger_template_error()
+#1 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templateparser.php(2789): Smarty_Internal_Templateparser->yy_syntax_error(15, ' =')
+#2 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_smartytemplatecompiler.php(114): Smarty_Internal_Templateparser->doParse(15, ' =')
+#3 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php(392): Smarty_Internal_SmartyTemplateCompiler->doCompile('<div class="ow_...', true)
+#4 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatecompilerbase.php(329): Smarty_Internal_TemplateCompilerBase->compileTemplateSource(Object(Smarty_Internal_Template), NULL, NULL)
+#5 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_template_compiled.php(236): Smarty_Internal_TemplateCompilerBase->compileTemplate(Object(Smarty_Internal_Template))
+#6 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_template_compiled.php(123): Smarty_Template_Compiled->compileTemplateSource(Object(Smarty_Internal_Template))
+#7 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_template_compiled.php(193): Smarty_Template_Compiled->process(Object(Smarty_Internal_Template))
+#8 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_template.php(159): Smarty_Template_Compiled->render(Object(Smarty_Internal_Template))
+#9 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatebase.php(191): Smarty_Internal_Template->render(false, 0)
+#10 C:\xampp\htdocs\doficfd\ow_libraries\vendor\smarty\smarty\libs\sysplugins\smarty_internal_templatebase.php(94): Smarty_Internal_TemplateBase->_execute('C:\\xampp\\htdocs...', NULL, NULL, NULL, 0)
+#11 C:\xampp\htdocs\doficfd\ow_core\view_renderer.php(80): Smarty_Internal_TemplateBase->fetch('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\doficfd\ow_core\view.php(187): OW_ViewRenderer->renderTemplate('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(258): OW_View->render()
+#14 C:\xampp\htdocs\doficfd\ow_core\request_handler.php(226): OW_RequestHandler->processControllerAction(Object(ReflectionMethod), Object(SPDOWNLOAD_CTRL_Category))
+#15 C:\xampp\htdocs\doficfd\ow_core\application.php(346): OW_RequestHandler->dispatch()
+#16 C:\xampp\htdocs\doficfd\index.php(76): OW_Application->handleRequest()
+#17 {main}]
+[Sun Sep 25 4:33:20 2016] [ow_core_log] [Notice] Message: Undefined index: btnUrl File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\c3bd7d7ffe098789ac7d2ddfbea0e4df9082813f_0.file.category_index.html.php Line:81
+[Sun Sep 25 4:33:20 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\c3bd7d7ffe098789ac7d2ddfbea0e4df9082813f_0.file.category_index.html.php Line:81
+[Sun Sep 25 4:33:20 2016] [ow_core_log] [Notice] Message: Undefined index: btnUrl File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\c3bd7d7ffe098789ac7d2ddfbea0e4df9082813f_0.file.category_index.html.php Line:83
+[Sun Sep 25 4:33:20 2016] [ow_core_log] [Notice] Message: Trying to get property of non-object File: C:\xampp\htdocs\doficfd\ow_smarty\template_c\c3bd7d7ffe098789ac7d2ddfbea0e4df9082813f_0.file.category_index.html.php Line:83
+[Sun Sep 25 6:24:35 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:24:35 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:24:35 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:24:35 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:24:35 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 6:38:00 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:38:19 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:45:27 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:45:34 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:45:49 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:45:57 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:45:58 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:45:58 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:45:58 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:45:58 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:45:58 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 6:46:38 2016] [ow_core_log] [Warning] Message: Can't add route! Route `spdownload.category_index` already added! File: C:\xampp\htdocs\doficfd\ow_core\router.php Line:151
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:46:39 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile\fonts): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile\fonts`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\crayon): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\crayon`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 6:47:56 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile\fonts): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile\fonts`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:14:12 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 10:15:17 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:15:17 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile\fonts`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:15:18 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:15:18 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:15:18 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\darklets): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:15:18 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\darklets`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:15:18 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
+[Sun Sep 25 10:18:03 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:18:03 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity\mobile`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:18:03 2016] [ow_core_log] [Warning] Message: rmdir(C:\xampp\htdocs\doficfd\ow_static\themes\simplicity): Directory not empty File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:194
+[Sun Sep 25 10:18:03 2016] [ow_core_log] [Warning] Message: Cant remove directory `C:\xampp\htdocs\doficfd\ow_static\themes\simplicity`! File: C:\xampp\htdocs\doficfd\ow_utilities\file.php Line:196
+[Sun Sep 25 10:18:03 2016] [ow_core_log] [Warning] Message: mkdir(): File exists File: C:\xampp\htdocs\doficfd\ow_system_plugins\base\bol\theme_service.php Line:345
